@@ -30,7 +30,7 @@ The Framework built with below packages
 <!-- CONTACT -->
 ## Contact
 
-Mahmoud A. Zaid - [@Linkedin](https://www.linkedin.com/in/mahmoudazaid/)
+Mahmoud A. Zaid - [Linkedin](https://www.linkedin.com/in/mahmoudazaid/)
 
 Project Link: [RestSharp.Demo](https://github.com/mahmoudazaid/RestSharp.Demo)
 
