@@ -1,6 +1,8 @@
 <!-- PROJECT SHIELDS -->
 <img alt="Nuget" src="https://img.shields.io/nuget/dt/SpecFlow.svg?label=SpecFlow&logo=SpecFlow">
 <img alt="Nuget" src="https://img.shields.io/nuget/dt/RestSharp.svg?label=RestSharp&logo=RestSharp">
+<img alt="Nuget" src="https://img.shields.io/nuget/dt/FluentAssertions.svg?label=FluentAssertions&logo=FluentAssertions">
+<img alt="Nuget" src="https://img.shields.io/nuget/dt/NUnit.svg?label=NUnit&logo=NUnit">
 
 
 <!-- PROJECT LOGO -->
