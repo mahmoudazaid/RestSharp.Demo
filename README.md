@@ -1,14 +1,14 @@
 <!-- PROJECT SHIELDS -->
-<img alt="Nuget" src="https://img.shields.io/nuget/dt/SpecFlow.svg?label=SpecFlow&logo=SpecFlow">
-<img alt="Nuget" src="https://img.shields.io/nuget/dt/RestSharp.svg?label=RestSharp&logo=RestSharp">
-<img alt="Nuget" src="https://img.shields.io/nuget/dt/FluentAssertions.svg?label=FluentAssertions&logo=FluentAssertions">
-<img alt="Nuget" src="https://img.shields.io/nuget/dt/NUnit.svg?label=NUnit&logo=NUnit">
-
-[![Build Status][build-shield]]()
-[![Contributors][contributors-shield]]()
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
+<p align="center">
+    <a href="https://specflow.org/" alt="SpecFlow">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/SpecFlow.svg?label=SpecFlow&logo=SpecFlow"></a>   
+  <a href="http://restsharp.org" alt="RestSharp">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/RestSharp.svg?label=RestSharp&logo=RestSharp"></a>
+  <a href="https://fluentAssertions.com" alt="FluentAssertions">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/FluentAssertions.svg?label=FluentAssertions&logo=FluentAssertions"></a>
+  <a href="https://nunit.org" alt="NUnit">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/NUnit.svg?label=NUnit&logo=NUnit"></a>
+</p>
 
 <!-- PROJECT LOGO -->
 <br />
