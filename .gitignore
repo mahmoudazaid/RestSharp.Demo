@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/RestSharp.Demo/bin/Debug
+/RestSharp.Demo/bin/Release
+/RestSharp.Demo/obj/Debug
+/RestSharp.Demo/obj/Release
+/packages
+/TestResults
