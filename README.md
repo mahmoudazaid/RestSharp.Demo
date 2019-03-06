@@ -1,4 +1,6 @@
+<img alt="Nuget" src="https://img.shields.io/nuget/dt/SpecFlow.svg?label=SpecFlow&logo=SpecFlow">
 <img alt="Nuget" src="https://img.shields.io/nuget/dt/RestSharp.svg?label=RestSharp&logo=RestSharp">
+
 
 <!-- PROJECT LOGO -->
 <br />
