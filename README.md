@@ -1,3 +1,8 @@
+<!-- PROJECT SHIELDS -->
+[![Build Status][build-shield]]()
+[![Contributors][contributors-shield]]()
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/mahmoudazaid]
+
 # RestSharp.Demo
 
 <!-- TABLE OF CONTENTS -->
