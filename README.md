@@ -1,4 +1,5 @@
-https://img.shields.io/nuget/dt/RestSharp.svg?label=RestSharp&logo=RestSharp
+<img alt="Nuget" src="https://img.shields.io/nuget/dt/RestSharp.svg?label=RestSharp&logo=RestSharp">
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
