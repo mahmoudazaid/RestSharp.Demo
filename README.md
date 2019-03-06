@@ -13,3 +13,17 @@
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+This project for testing APIs with RestSharp, SpecFlow
+
+### Built With
+The Framework built with below packages
+* [RestSharp](http://restsharp.org)
+* [SpecFlow](https://specflow.org/)
+* [FluentAssertions](https://fluentAssertions.com)
+*[NUnit](https://nunit.org/)
+
