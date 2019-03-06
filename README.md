@@ -16,7 +16,7 @@
 
 ## About The Project
 
-This project for build a powerful testing framework to test APIs with RestSharp, SpecFlow the framework built on .net framework4.6.1.
+This project for build a powerful testing framework to test APIs with RestSharp, SpecFlow the framework built on .Net Framework4.6.1.
 The Demo APIs used from this websit (http://dummy.restapiexample.com/)
 
 ### Built With
@@ -45,22 +45,6 @@ This is an example of how to list things you need to use the software and how to
 2. SpecFlow
 3. Nunit
 4. FluentAssertions
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https:://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
