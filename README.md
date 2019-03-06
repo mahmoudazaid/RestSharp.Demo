@@ -27,4 +27,10 @@ The Framework built with below packages
 * [FluentAssertions](https://fluentAssertions.com)
 * [NUnit](https://nunit.org)
 
+<!-- CONTACT -->
+## Contact
+
+Mahmoud A. Zaid - [@Linkedin](https://www.linkedin.com/in/mahmoudazaid/)
+
+Project Link: [RestSharp.Demo](https://github.com/mahmoudazaid/RestSharp.Demo)
 
