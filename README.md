@@ -1,7 +1,26 @@
-<!-- PROJECT SHIELDS -->
-[![Build Status][build-shield]]()
-[![Contributors][contributors-shield]]()
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/mahmoudazaid]
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">RestSharp.Demo</h3>
+
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/mahmoudazaid/RestSharp.Demo"><strong>Read Instructions »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/mahmoudazaid/RestSharp.Demo">View Demo</a>
+    ·
+    <a href="https://github.com/mahmoudazaid/RestSharp.Demo/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/mahmoudazaid/RestSharp.Demo/issues">Request Feature</a>
+  </p>
+</p>
+
 
 # RestSharp.Demo
 
