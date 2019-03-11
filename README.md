@@ -24,9 +24,7 @@
     <br />
     <a href="#about-the-project"><strong>Read Instructions »</strong></a>
     <br />
-    <br />
-    <a class="btn btn-outline get-repo-btn  btn-block" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DOWNLOAD_BUTTON&quot;,&quot;user_id&quot;:30802898,&quot;record_id&quot;:174082407,&quot;client_id&quot;:&quot;1915608595.1543900764&quot;,&quot;originating_request_id&quot;:&quot;F614:521B:7E9C83:1010F2A:5C862168&quot;,&quot;originating_url&quot;:&quot;https://github.com/mahmoudazaid/RestSharp.Demo&quot;}}" data-hydro-click-hmac="2ca6b5e53eb889ab8d811c790b1081d795efaa09bdaab7c38f3424f81ae297fb" data-ga-click="Repository, download zip, location:repo overview" href="/mahmoudazaid/RestSharp.Demo/archive/master.zip">View Demo</a>
-    ·
+    <br />    
     <a href="https://github.com/mahmoudazaid/RestSharp.Demo/issues">Report Bug</a>
     ·
     <a href="https://github.com/mahmoudazaid/RestSharp.Demo/issues">Request Feature</a>
