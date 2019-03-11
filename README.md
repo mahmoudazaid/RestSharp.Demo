@@ -25,7 +25,7 @@
     <a href="#about-the-project"><strong>Read Instructions »</strong></a>
     <br />
     <br />
-    <a href="git-client://clone?repo=https%3A%2F%2Fgithub.com%2Fmahmoudazaid%2FRestSharp.Demo">View Demo</a>
+    <a href="https://github.com/mahmoudazaid/RestSharp.Demo/issues">View Demo</a>
     ·
     <a href="https://github.com/mahmoudazaid/RestSharp.Demo/issues">Report Bug</a>
     ·
