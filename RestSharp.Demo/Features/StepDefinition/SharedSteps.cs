@@ -1,5 +1,7 @@
 ﻿using FluentAssertions;
-using RestSharp.Demo.Utilities;
+using RestSharp.Demo.Model;
+using RestSharp.Serialization.Json;
+using System.Configuration;
 using TechTalk.SpecFlow;
 
 namespace RestSharp.Demo.Features.StepDefinition
@@ -8,8 +10,12 @@ namespace RestSharp.Demo.Features.StepDefinition
     [Binding]
     public sealed class SharedSteps
     {
-        public static RestRequest request;
-        public IRestResponse apiResult;
+        #region Define Public Variables
+        public static RestClient api = new RestClient(ConfigurationManager.AppSettings["RestAPI"]);
+        public static RestRequest request;        
+        public static IRestResponse apiResult;        
+        #endregion
+
         [Given(@"Create Request ""(.*)"" with method ""(.*)""")]
         public void GivenCreateRequestWithMethod(string _request , Method _method)
         {
@@ -27,7 +33,7 @@ namespace RestSharp.Demo.Features.StepDefinition
         [When(@"Execute API")]
         public void ThenExecuteAPI()
         {
-            apiResult = Client.api.Execute(request);            
+            apiResult = api.Execute(request);            
         }
 
         [Then(@"returned status code will be ""(.*)""")]
@@ -35,9 +41,7 @@ namespace RestSharp.Demo.Features.StepDefinition
         {
             var code = apiResult.StatusCode;
             code.Should().Be(_status);            
-        }
-
-
+        }       
 
     }
 

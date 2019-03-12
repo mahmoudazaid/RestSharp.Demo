@@ -102,11 +102,24 @@ this.ScenarioInitialize(scenarioInfo);
 #line 7
 testRunner.Given("Create Request \"employee/{id}\" with method \"GET\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 8
-testRunner.When("Create URL segment for \"id\" with parameter \"4845\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+testRunner.When("Create URL segment for \"id\" with parameter \"7337\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 9
 testRunner.And("Execute API", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 10
-testRunner.Then("returned status code will be \"200\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                        "id",
+                        "employee_name",
+                        "employee_salary",
+                        "employee_age",
+                        "profile_image"});
+            table1.AddRow(new string[] {
+                        "7337",
+                        "Chantalle Boodle",
+                        "97557",
+                        "17",
+                        ""});
+#line 12
+testRunner.Then("I get back the following employee_info", ((string)(null)), table1, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
