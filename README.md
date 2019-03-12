@@ -14,7 +14,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/mahmoudazaid/RestSharp.Demo">
-    <img src="RestSharp_logo.png" alt="Logo">
+    <img src="images/RestSharp_logo.png" alt="Logo">
   </a>
 
   <h3 align="center">RestSharp.Demo</h3>
