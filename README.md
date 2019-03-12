@@ -1,3 +1,15 @@
+<!-- PROJECT SHIELDS -->
+<p align="center">
+    <a href="https://specflow.org/" alt="SpecFlow">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/SpecFlow.svg?label=SpecFlow&logo=SpecFlow"></a>   
+  <a href="http://restsharp.org" alt="RestSharp">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/RestSharp.svg?label=RestSharp&logo=RestSharp"></a>
+  <a href="https://fluentAssertions.com" alt="FluentAssertions">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/FluentAssertions.svg?label=FluentAssertions&logo=FluentAssertions"></a>
+  <a href="https://nunit.org" alt="NUnit">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/NUnit.svg?label=NUnit&logo=NUnit"></a>
+</p>
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -12,9 +24,7 @@
     <br />
     <a href="#about-the-project"><strong>Read Instructions »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/mahmoudazaid/RestSharp.Demo">View Demo</a>
-    ·
+    <br />    
     <a href="https://github.com/mahmoudazaid/RestSharp.Demo/issues">Report Bug</a>
     ·
     <a href="https://github.com/mahmoudazaid/RestSharp.Demo/issues">Request Feature</a>
