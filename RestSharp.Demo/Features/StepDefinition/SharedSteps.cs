@@ -16,7 +16,7 @@ namespace RestSharp.Demo.Features.StepDefinition
         public static IRestResponse apiResult;        
         #endregion
 
-        [Given(@"Create Request ""(.*)"" with method ""(.*)""")]
+        [Given(@"Create Request ""(.*)"" with ""(.*)"" method")]
         public void GivenCreateRequestWithMethod(string _request , Method _method)
         {
             request = new RestRequest(_request,_method);
