@@ -84,7 +84,7 @@ To get a local copy up and running follow these simple example steps.
 To run tests use Test Explorer
 
 
-_For more examples, and understand the API and creating the framework visit the [Wiki](https://github.com/mahmoudazaid/RestSharp.Demo/wiki)_
+_For more examples, and understand the API and creating the framework read the [Wiki](https://github.com/mahmoudazaid/RestSharp.Demo/wiki)_
 
 
 <!-- CONTRIBUTING -->
