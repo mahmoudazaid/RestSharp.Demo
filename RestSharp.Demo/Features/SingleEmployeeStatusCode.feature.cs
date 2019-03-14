@@ -18,14 +18,14 @@ namespace RestSharp.Demo.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.4.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class GetSingleEmployeeApiFeature
+    public partial class GetSingleEmployeeStatusCodeFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
         private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
-#line 1 "GetSignalEmployee.feature"
+#line 1 "SingleEmployeeStatusCode.feature"
 #line hidden
         
         public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
@@ -44,7 +44,7 @@ namespace RestSharp.Demo.Features
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "GetSingleEmployeeApi", "\tThis page will contains information about, how to access particular employee dat" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "GetSingleEmployeeStatusCode", "\tThis page will contains information about, how to access particular employee dat" +
                     "a using rest api /employee.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
@@ -60,9 +60,9 @@ namespace RestSharp.Demo.Features
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "GetSingleEmployeeApi")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "GetSingleEmployeeStatusCode")))
             {
-                global::RestSharp.Demo.Features.GetSingleEmployeeApiFeature.FeatureSetup(null);
+                global::RestSharp.Demo.Features.GetSingleEmployeeStatusCodeFeature.FeatureSetup(null);
             }
         }
         
@@ -90,7 +90,7 @@ namespace RestSharp.Demo.Features
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Get Single employee status")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "GetSingleEmployeeApi")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "GetSingleEmployeeStatusCode")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("api")]
         public virtual void CheckGetSingleEmployeeStatus()
         {

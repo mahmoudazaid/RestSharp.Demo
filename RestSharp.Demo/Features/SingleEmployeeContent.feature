@@ -1,8 +1,17 @@
-﻿Feature: GetSingleEmployeeApi
+﻿Feature: GetSingleEmployeeContent
 	This page will contains information about, how to access particular employee data using rest api /employee.
-@mytag
-Scenario: Add two numbers
-	Given I have entered 50 into the calculator
-	And I have entered 70 into the calculator
-	When I press add
-	Then the result should be 120 on the screen
+
+
+@api
+Scenario: Check Get Single employee status
+Given Create Request "employee/{id}" with "GET" method
+When Create URL segment for "id" with parameter "8126"
+And Execute API
+And Deserialize the employee api content
+Then The employee should have the following values
+|Key			  |Value		 |
+| id              | 8126         |
+| employee_name   | Joey Smith	 |
+| employee_salary | 49258        |
+| employee_age    | 64           |
+| profile_image	  |				 |

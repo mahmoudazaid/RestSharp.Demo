@@ -1,10 +1,6 @@
 ﻿using FluentAssertions;
 using RestSharp.Demo.Model;
 using RestSharp.Serialization.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 
@@ -12,22 +8,23 @@ namespace RestSharp.Demo.Features.StepDefinition
 {
     [Binding]
     public sealed class SingleEmployeeSteps
-    {        
+    {
+        private static Employee employee_info;
+        private JsonDeserializer deserializer = new JsonDeserializer();
+
 
         [When(@"Deserialize the employee api content")]
         public void WhenDeserializeTheEmployeeApiContent()
         {
-            var deserializer = new JsonDeserializer();
-
-            Employee employee_info = deserializer.Deserialize<Employee>(SharedSteps.apiResult);
+            employee_info = deserializer.Deserialize<Employee>(SharedSteps.apiResult);
+            var type = employee_info.GetType();
         }
 
-
-        [Then(@"I get back the following employee_info")]
-        public void ThenReturnedEmployeeShouldBe(Table table)
+        [Then(@"The employee should have the following values")]
+        public void ThenTheEmployeeShouldHaveTheFollowingValues(Table table)
         {
-            var employee = table.CreateSet<Employee>();
-            //employee.Should().Be(SharedSteps.employee_info);
-        }        
+            var employee = table.CreateInstance<Employee>();
+            employee_info.Should().BeEquivalentTo(employee);
+        }
     }
 }

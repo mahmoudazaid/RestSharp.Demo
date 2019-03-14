@@ -18,7 +18,7 @@ namespace RestSharp.Demo.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.4.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class GetSingleEmployeeApiFeature
+    public partial class GetSingleEmployeeContentFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
@@ -44,7 +44,7 @@ namespace RestSharp.Demo.Features
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "GetSingleEmployeeApi", "\tThis page will contains information about, how to access particular employee dat" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "GetSingleEmployeeContent", "\tThis page will contains information about, how to access particular employee dat" +
                     "a using rest api /employee.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
@@ -60,9 +60,9 @@ namespace RestSharp.Demo.Features
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "GetSingleEmployeeApi")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "GetSingleEmployeeContent")))
             {
-                global::RestSharp.Demo.Features.GetSingleEmployeeApiFeature.FeatureSetup(null);
+                global::RestSharp.Demo.Features.GetSingleEmployeeContentFeature.FeatureSetup(null);
             }
         }
         
@@ -89,24 +89,45 @@ namespace RestSharp.Demo.Features
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Add two numbers")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "GetSingleEmployeeApi")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        public virtual void AddTwoNumbers()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Get Single employee status")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "GetSingleEmployeeContent")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("api")]
+        public virtual void CheckGetSingleEmployeeStatus()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", null, new string[] {
-                        "mytag"});
-#line 4
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check Get Single employee status", null, new string[] {
+                        "api"});
+#line 6
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 5
- testRunner.Given("I have entered 50 into the calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 6
- testRunner.And("I have entered 70 into the calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 7
- testRunner.When("I press add", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+testRunner.Given("Create Request \"employee/{id}\" with \"GET\" method", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 8
- testRunner.Then("the result should be 120 on the screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.When("Create URL segment for \"id\" with parameter \"8126\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 9
+testRunner.And("Execute API", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 10
+testRunner.And("Deserialize the employee api content", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Key",
+                        "Value"});
+            table1.AddRow(new string[] {
+                        "id",
+                        "8126"});
+            table1.AddRow(new string[] {
+                        "employee_name",
+                        "Joey Smith"});
+            table1.AddRow(new string[] {
+                        "employee_salary",
+                        "49258"});
+            table1.AddRow(new string[] {
+                        "employee_age",
+                        "64"});
+            table1.AddRow(new string[] {
+                        "profile_image",
+                        ""});
+#line 11
+testRunner.Then("The employee should have the following values", ((string)(null)), table1, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

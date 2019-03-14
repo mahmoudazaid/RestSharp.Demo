@@ -1,4 +1,4 @@
-﻿Feature: GetSingleEmployeeApi
+﻿Feature: GetSingleEmployeeStatusCode
 	This page will contains information about, how to access particular employee data using rest api /employee.
 
 
