@@ -18,14 +18,14 @@ namespace RestSharp.Demo.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.4.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class GetSingleEmployeeStatusCodeFeature
+    public partial class CreateNewEmployeeFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
         private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
-#line 1 "SingleEmployeeStatusCode.feature"
+#line 1 "CreateNewEmployee.feature"
 #line hidden
         
         public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
@@ -44,8 +44,8 @@ namespace RestSharp.Demo.Features
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "GetSingleEmployeeStatusCode", "\tThis page will contains information about, how to access particular employee dat" +
-                    "a using rest api /employee.", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CreateNewEmployee", "This page will contains information about, how to create employee data using rest" +
+                    " /employee.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -60,9 +60,9 @@ namespace RestSharp.Demo.Features
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "GetSingleEmployeeStatusCode")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "CreateNewEmployee")))
             {
-                global::RestSharp.Demo.Features.GetSingleEmployeeStatusCodeFeature.FeatureSetup(null);
+                global::RestSharp.Demo.Features.CreateNewEmployeeFeature.FeatureSetup(null);
             }
         }
         
@@ -89,23 +89,32 @@ namespace RestSharp.Demo.Features
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Get Single employee status Code")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "GetSingleEmployeeStatusCode")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("api")]
-        public virtual void CheckGetSingleEmployeeStatusCode()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Create a new employee")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "CreateNewEmployee")]
+        public virtual void CreateANewEmployee()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check Get Single employee status Code", null, new string[] {
-                        "api"});
-#line 6
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create a new employee", null, ((string[])(null)));
+#line 4
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 7
-testRunner.Given("Create Request \"employee/{id}\" with \"GET\" method", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 8
-testRunner.When("Create URL segment for \"id\" with parameter \"7337\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 5
+testRunner.Given("Create Request \"create\" with \"POST\" method", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                        "name",
+                        "salary",
+                        "age"});
+            table1.AddRow(new string[] {
+                        "TestEmployee",
+                        "5000",
+                        "25"});
+#line 6
+testRunner.When("I create a request body with the following values", ((string)(null)), table1, "When ");
 #line 9
-testRunner.And("Execute API", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.And("Add the serialized body to the API request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 10
+testRunner.And("Execute API", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 11
 testRunner.Then("returned status code will be \"200\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

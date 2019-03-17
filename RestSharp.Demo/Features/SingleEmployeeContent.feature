@@ -3,7 +3,7 @@
 
 
 @api
-Scenario: Check Get Single employee status
+Scenario: Check Get Single employee Content
 Given Create Request "employee/{id}" with "GET" method
 When Create URL segment for "id" with parameter "8126"
 And Execute API

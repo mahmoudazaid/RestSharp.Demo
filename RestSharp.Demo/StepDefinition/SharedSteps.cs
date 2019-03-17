@@ -28,7 +28,7 @@ namespace RestSharp.Demo.Features.StepDefinition
         public void ThenCreateURLSegmentForWithParameter(string _segment, string _parameter)
         {
             request.AddUrlSegment(_segment, _parameter);
-        }
+        }       
 
         [When(@"Execute API")]
         public void ThenExecuteAPI()
