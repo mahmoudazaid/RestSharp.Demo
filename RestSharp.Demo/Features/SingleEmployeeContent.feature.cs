@@ -89,12 +89,12 @@ namespace RestSharp.Demo.Features
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Get Single employee status")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Get Single employee Content")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "GetSingleEmployeeContent")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("api")]
-        public virtual void CheckGetSingleEmployeeStatus()
+        public virtual void CheckGetSingleEmployeeContent()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check Get Single employee status", null, new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check Get Single employee Content", null, new string[] {
                         "api"});
 #line 6
 this.ScenarioInitialize(scenarioInfo);
