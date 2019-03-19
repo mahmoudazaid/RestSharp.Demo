@@ -70,6 +70,7 @@ To get a local copy up and running follow these simple example steps.
 
 * Visual Studio
 * Create a Unit Test Project .net framework
+* SpecFlow installed in Visual Studio
 
 ### Installation
 * Install Packages from Nuget Manager
