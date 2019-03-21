@@ -13,7 +13,7 @@
     <a href="#about-the-project"><strong>Read Instructions »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/mahmoudazaid/RestSharp.Demo">View Demo</a>
+    <a href="https://github.com/mahmoudazaid/RestSharp.Demo/wiki">Read Wiki</a>
     ·
     <a href="https://github.com/mahmoudazaid/RestSharp.Demo/issues">Report Bug</a>
     ·
