@@ -1,8 +1,20 @@
+<!-- PROJECT SHIELDS -->
+<p align="center">
+    <a href="https://specflow.org/" alt="SpecFlow">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/SpecFlow.svg?label=SpecFlow&logo=SpecFlow"></a>   
+  <a href="http://restsharp.org" alt="RestSharp">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/RestSharp.svg?label=RestSharp&logo=RestSharp"></a>
+  <a href="https://fluentAssertions.com" alt="FluentAssertions">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/FluentAssertions.svg?label=FluentAssertions&logo=FluentAssertions"></a>
+  <a href="https://nunit.org" alt="NUnit">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/NUnit.svg?label=NUnit&logo=NUnit"></a>
+</p>
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/mahmoudazaid/RestSharp.Demo">
-    <img src="RestSharp_logo.png" alt="Logo">
+    <img src="images/RestSharp_logo.png" alt="Logo">
   </a>
 
   <h3 align="center">RestSharp.Demo</h3>
@@ -12,9 +24,9 @@
     <br />
     <a href="#about-the-project"><strong>Read Instructions »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/mahmoudazaid/RestSharp.Demo/wiki">Read Wiki</a>
-    ·
+    <br />  
+    <a href="https://github.com/mahmoudazaid/RestSharp.Demo/wiki">Read a Wiki</a>
+    .
     <a href="https://github.com/mahmoudazaid/RestSharp.Demo/issues">Report Bug</a>
     ·
     <a href="https://github.com/mahmoudazaid/RestSharp.Demo/issues">Request Feature</a>
@@ -60,6 +72,7 @@ To get a local copy up and running follow these simple example steps.
 
 * Visual Studio
 * Create a Unit Test Project .net framework
+* SpecFlow installed in Visual Studio
 
 ### Installation
 * Install Packages from Nuget Manager
@@ -74,7 +87,7 @@ To get a local copy up and running follow these simple example steps.
 To run tests use Test Explorer
 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, and understand the API and creating the framework read the [Wiki](https://github.com/mahmoudazaid/RestSharp.Demo/wiki)_
 
 
 <!-- CONTRIBUTING -->
@@ -94,4 +107,3 @@ Contributions are what make the open source community such an amazing place to b
 Mahmoud A. Zaid - [Linkedin](https://www.linkedin.com/in/mahmoudazaid/)
 
 Project Link: [RestSharp.Demo](https://github.com/mahmoudazaid/RestSharp.Demo)
-
