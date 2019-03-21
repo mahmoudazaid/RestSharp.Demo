@@ -13,8 +13,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/mahmoudazaid/RestSharp.Demo">
-    <img src="images/RestSharp_logo.png" alt="Logo">
+  <a href="https://github.com/mahmoudazaid/RestAssuredTest">
+    <img src="images/rest-assured-logo" alt="Logo">
   </a>
 
   <h3 align="center">RestSharp.Demo</h3>
@@ -52,15 +52,16 @@
 
 ## About The Project
 
-This project for build a powerful testing framework to test APIs with RestSharp, SpecFlow the framework built on .Net Framework4.6.1.
+This project for build a powerful testing framework to test APIs with RestAssured, Cucumber the framework built with Java.
 The Demo APIs used from this websit (http://dummy.restapiexample.com/)
 
 ### Built With
 The Framework built with below main packages
-* [SpecFlow](https://specflow.org/)
-* [RestSharp](http://restsharp.org)
+* [Maven](https://maven.apache.org)
+* [Cucumber](https://cucumber.io)
+* [RestAssured](http://rest-assured.io)
 * [FluentAssertions](https://fluentAssertions.com)
-* [NUnit](https://nunit.org)
+* [TestNG](https://testng.org)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -70,24 +71,25 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-* Visual Studio
-* Create a Unit Test Project .net framework
-* SpecFlow installed in Visual Studio
+* Intellij IDEA
+* Create a maven Project
+* Maven Installed
+* JDK installed
 
 ### Installation
-* Install Packages from Nuget Manager
-1. RestSharp
-2. SpecFlow
-3. Nunit
-4. FluentAssertions
-
+* Install The below
+1. [Maven](https://docs.wso2.com/display/IS323/Installing+Apache+Maven+on+Windows)
+2. [Install JDK](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-A7E27B90-A28D-4237-9383-A58B416071CA)
+3. Define Java Enviroment
+4. Define Mave Enviroment
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 To run tests use Test Explorer
 
 
-_For more examples, and understand the API and creating the framework read the [Wiki](https://github.com/mahmoudazaid/RestSharp.Demo/wiki)_
+_For more examples, and understand the API and creating the framework read the 
+[Wiki]()_
 
 
 <!-- CONTRIBUTING -->
