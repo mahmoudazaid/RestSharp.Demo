@@ -20,7 +20,6 @@
   <h3 align="center">RestSharp.Demo</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
     <br />
     <a href="#about-the-project"><strong>Read Instructions »</strong></a>
     <br />
